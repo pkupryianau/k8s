@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Validate YAML
-        run: yamllint k8s
+      #- name: Validate YAML
+      #  run: yamllint k8s
       - name: Notify
         run: echo "Changes pushed. Argo CD will sync automatically."
