@@ -2,7 +2,8 @@ name: Deploy to Kubernetes via Argo CD
 on:
   push:
     branches:
-      - mainjobs: null
+      - main
+jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
