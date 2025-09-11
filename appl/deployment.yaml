@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: nginxinc/nginx-unprivileged:alpine3.22-perl
+        image: nginx:stable-perl
         ports:
         - containerPort: 80
