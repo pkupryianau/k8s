@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Validate YAML
-        run: yamllint k8s/appl
+        run: yamllint k8s
       - name: Notify
         run: echo "Changes pushed. Argo CD will sync automatically."
