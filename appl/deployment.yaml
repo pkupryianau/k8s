@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: nginx:stable
+        image: httpd:latest  #nginx:stable
         ports:
         - containerPort: 80
